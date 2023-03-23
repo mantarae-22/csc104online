@@ -1,0 +1,40 @@
+body{
+    background-color: #efefef;
+    color: red;
+}
+
+h1{
+    font-size: 40pt;
+    color: blue;
+}
+
+p{
+    font-size: 16pt;
+    color: navy;
+}
+
+/* 
+    The menu is based on code from: 
+    https://www.w3schools.com/howto/howto_css_pill_nav.asp */
+/* Style the links inside the pill navigation menu */
+.pill-nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 18px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Change the color of links on mouse-over */
+  .pill-nav a:hover {
+    background-color: #cb6363;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .pill-nav a.active {
+    background-color: rgb(11, 66, 121);
+    color: white;
+  }
